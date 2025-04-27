@@ -358,28 +358,18 @@ int main() {
 ## 測試與驗證
 
 ### 測試案例
+Insertion Sort
+![image](https://github.com/user-attachments/assets/0454707b-b1a6-4d5b-90c2-25c72b56c87a)
 
-| 測試案例 | 輸入參數 $n$ | 預期輸出 | 實際輸出 |
-|----------|--------------|----------|----------|
-| 測試一   | $n = 0$      | 0        | 0        |
-| 測試二   | $n = 1$      | 1        | 1        |
-| 測試三   | $n = 3$      | 6        | 6        |
-| 測試四   | $n = 5$      | 15       | 15       |
-| 測試五   | $n = -1$     | 異常拋出 | 異常拋出 |
+Quick Sort
+![image](https://github.com/user-attachments/assets/e201728d-3a99-4c63-9ffb-9e11a332ac7d)
 
-### 編譯與執行指令
+Merge Sort
+![image](https://github.com/user-attachments/assets/6cbc5865-de97-4384-b50b-37debb366b1a)
 
-```shell
-$ g++ -std=c++17 -o sigma sigma.cpp
-$ ./sigma
-6
-```
+Heap Sort
+![image](https://github.com/user-attachments/assets/3f18782a-afa1-48a2-8e50-40a2c51e22dd)
 
-### 結論
-
-1. 程式能正確計算 $n$ 到 $1$ 的連加總和。  
-2. 在 $n < 0$ 的情況下，程式會成功拋出異常，符合設計預期。  
-3. 測試案例涵蓋了多種邊界情況（$n = 0$、$n = 1$、$n > 1$、$n < 0$），驗證程式的正確性。
 
 ## 申論及開發報告
 

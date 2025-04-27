@@ -78,7 +78,7 @@ int main() {
 ```
 Quick Sort 程式碼:
 
-'''cpp
+```cpp
 #include <iostream>
 #include <vector>
 #include <random>
@@ -151,11 +151,11 @@ int main() {
 
     return 0;
 }
-'''
+```
 
 Merge Sort 程式碼:
 
-'''cpp
+```cpp
 #include <iostream>
 #include <vector>
 #include <random>
@@ -253,11 +253,11 @@ int main() {
 
     return 0;
 }
-'''
+```
 
 Heap Sort 程式碼:
 
-'''cpp
+```cpp
 #include <iostream>
 #include <vector>
 #include <random>
@@ -338,7 +338,7 @@ int main() {
 
     return 0;
 }
-'''
+```
 
 ## 效能分析
 

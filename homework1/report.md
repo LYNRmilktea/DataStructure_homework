@@ -387,7 +387,7 @@ Insertion Sort 在資料量小或資料接近有序時特別有效，結構簡�
 ## 2. Quick Sort
 
 採用分治法（Divide and Conquer）策略與遞迴（Recursion）實作，利用樞紐（pivot）分割陣列並遞迴排序。  
-Quick Sort 平均時間複雜度為 O(n log n)，排序速度快。
+Quick Sort 平均時間複雜度為$O(n\log n)$，排序速度快。
 
 ---
 

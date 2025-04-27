@@ -347,6 +347,7 @@ int main() {
 2.	Quick Sort：正常快速排序下為O(nlogn)，n為陣列長度(最壞的情況下則是O(n2))。
 3.	Merge Sort：O(nlogn)，n為陣列長度
 4.	Heap Sort：O(nlogn)，n為陣列長度
+   
 空間複雜度：
 1.	Insertion Sort：O(1)，原地排序算法
 2.	Quick Sort：O(logn)，遞迴的最大深度

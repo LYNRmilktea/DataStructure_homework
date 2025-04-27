@@ -387,18 +387,18 @@ Insertion Sort 在資料量小或資料接近有序時特別有效，結構簡�
 ## 2. Quick Sort
 
 採用分治法（Divide and Conquer）策略與遞迴（Recursion）實作，利用樞紐（pivot）分割陣列並遞迴排序。  
-Quick Sort 平均時間複雜度為 O(n log n)，排序速度快，適合大量且無特定結構的資料集。
+Quick Sort 平均時間複雜度為 O(n log n)，排序速度快。
 
 ---
 
 ## 3. Merge Sort
 
-透過遞迴與分治策略，將資料分成兩半排序後合併，使用額外 O(n) 空間儲存暫存資料。  
-Merge Sort 穩定且時間複雜度固定為 O(n log n)，適合資料量大且需要穩定排序的情境。
+透過遞迴與分治，將資料分成兩半排序後合併，使用額外 O(n) 空間儲存暫存資料。  
+Merge Sort 穩定且時間複雜度固定為 O(n log n)，適合資料量大且需要穩定排序的情況。
 
 ---
 
 ## 4. Heap Sort
 
-以陣列建構最大堆（Max Heap）結構，反覆將最大元素取出並重新堆化（heapify）完成排序。  
+用陣列建構最大堆（Max Heap）結構，反覆將最大元素取出並重新堆化（heapify）完成排序。  
 Heap Sort 是原地排序法，空間複雜度低，適合需要節省空間且資料量大的場合。
